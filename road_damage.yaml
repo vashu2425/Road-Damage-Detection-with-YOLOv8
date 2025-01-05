@@ -1,0 +1,9 @@
+train: ../train/images
+val: ../validation/images
+
+nc: 4  # Number of classes (e.g., Longitudinal Crack, Transverse Crack, Pothole, Alligator Crack)
+names:
+  0: D00  # Longitudinal Crack
+  1: D10  # Transverse Crack
+  2: D20  # Alligator Crack
+  3: D40  # Pothole
